@@ -8,6 +8,7 @@
 @import 'headline.scss';
 @import 'header.scss';
 @import 'tips.scss';
+@import 'order.scss';
 * {
     box-sizing: border-box;
     ;
@@ -22,13 +23,10 @@ html {
 .page {
     width: 100%;
     overflow-x: hidden;
-}
-
-@media screen and (min-width: 400px) {
-    .page {
+    @include for-large-up {
         display: flex;
         flex-direction: column;
-        width: 1400px;
+        max-width: 1400px;
         margin: auto;
         min-height: 100vh;
     }
