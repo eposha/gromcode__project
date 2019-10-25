@@ -8,6 +8,9 @@
         width: 1140px;
         margin: auto;
         display: flex;
+        @include for-large-up {
+            padding-bottom: 110px;
+        }
     }
     &__column {
         width: 459px;

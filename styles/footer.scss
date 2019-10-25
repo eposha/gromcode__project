@@ -1,50 +1,66 @@
 .footer {
     display: flex;
-    flex-direction: column;
     margin-top: auto;
-    &__description {
-        display: none;
-        line-height: 26px;
-        font-size: 18px;
-        width: 360px;
-        margin-top: 26px;
-        color: $text-color-light-grey;
-        @include for-large-down {
-            display: none;
-        }
-    }
+    flex-direction: column;
     &-navigation {
-        margin: 0;
         display: flex;
         flex-direction: column;
+        margin: 0;
         @include for-large-up {
             display: flex;
             flex-direction: row;
+            height: 338px;
             width: 1140px;
             margin: 0 auto;
-            height: 338px;
         }
+    }
+    &-description {
+        display: none;
+        width: 360px;
+        margin-top: 26px;
+        line-height: 28px;
+        font-size: 18px;
+        color: $text-color-light-grey;
+        @include for-large-up {
+            display: block;
+        }
+    }
+    &-line {
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+        border-top: 1px solid rgba(43, 41, 45, 0.1);
     }
     &-links {
-        margin-left: 15px;
         display: flex;
         flex-direction: column;
+        margin-left: 15px;
+        justify-content: space-between;
         @include for-large-up {
             height: 50px;
-            flex-direction: row;
             width: 1140px;
-            margin: 0 auto;
             align-items: center;
+            margin: 0 auto;
+            flex-direction: row;
         }
     }
-    @include for-large-up {
-        display: flex;
-        flex-direction: row;
-        width: 1140px;
-        margin: 0 auto;
-        height: 338px;
-    }
     .logo {
+        display: flex;
+        align-items: center;
+        &__img {
+            margin-right: 15px;
+        }
+        &__name {
+            font-size: 20px;
+            line-height: 25px;
+            font-weight: 700;
+        }
+        &__description {
+            display: block;
+            font-size: 18px;
+            line-height: 25px;
+            color: $text-color-light-grey;
+        }
         @include for-large-down {
             display: none;
         }
@@ -58,11 +74,10 @@
 .downloads {
     display: flex;
     justify-content: center;
-    margin: 25px 15px 0 15px;
+    margin: 25px 15px 0;
     @include for-large-up {
-        margin: 0;
-        margin-top: 25px;
-        justify-content: left;
+        justify-content: flex-start;
+        margin: 25px 0 0;
     }
     &__item {
         margin-right: 10px;
@@ -71,19 +86,18 @@
 
 .additional-navigation {
     display: flex;
-    margin-left: 15px;
-    margin-right: 15px;
     flex-direction: column;
+    margin: 30px 15px 0;
     @include for-large-up {
-        margin-top: 60px;
-        margin-left: auto;
         flex-direction: row;
+        margin-left: auto;
+        margin-top: 60px;
     }
     &__column {
         margin-top: 30px;
         @include for-large-up {
+            margin-right: 29px;
             margin-top: 0;
-            margin-right: 60px;
         }
     }
 }
@@ -91,71 +105,51 @@
 .nav-links {
     width: 265px;
     &__title {
-        font-weight: bold;
+        margin: 0;
         font-size: 22px;
         line-height: 28px;
-        color: $text-color-light-grey;
-        margin: 0;
+        color: #2B292D;
     }
     &__list {
-        list-style-type: none;
+        margin: 18px 0 0;
+        padding: 0;
         font-size: 18px;
         line-height: 30px;
+        list-style-type: none;
+    }
+    &__item a {
         color: $text-color-light-grey;
-        margin: 0;
-        padding: 0;
-        margin-top: 18px;
+        text-decoration: none;
     }
-    &__line {
-        border-bottom: 1px solid #2B292D;
-        width: 100%;
-        margin: 0;
-        opacity: .1;
-        margin-top: 40px;
-        @include for-large-up {
-            margin: 0;
-        }
-    }
-}
-
-.userful-link {
-    width: 1140px;
-    margin: 0 auto;
-    height: 338px;
 }
 
 .terms {
+    margin-top: 30px;
     line-height: 22px;
     font-size: 14px;
-    margin-top: 30px;
     @include for-large-up {
-        line-height: 50px;
         margin-top: 0;
+        line-height: 50px;
     }
     &__items {
+        margin-right: 22px;
         text-decoration: none;
         color: $text-color-light-grey;
-        margin-right: 22px;
     }
-}
-
-.terms__items {
-    text-decoration: none;
-    color: $text-color-light-grey;
-    margin-right: 22px;
 }
 
 .social-links {
     margin-top: 30px;
     margin-bottom: 23px;
-    &__items {
+    @include for-large-up {
+        margin-top: 0;
         margin-left: auto;
         margin-bottom: 0;
     }
     &__item {
         margin-left: 20px;
         &:first-child {
-            margin-left: 0px;
+            margin-left: 0;
         }
     }
 }
@@ -168,15 +162,15 @@
         display: none;
     }
     &__image {
-        width: 60px;
         height: 60px;
+        width: 60px;
     }
     &__name {
-        font-weight: 700;
+        margin-top: 20px;
         font-size: 20px;
         line-height: 25px;
         text-align: center;
-        margin-top: 20px;
+        font-weight: 700;
     }
     &__description {
         font-size: 18px;

@@ -1,7 +1,7 @@
 .top-section {
-    background-color: #F3C6BD;
+    background-color: $color-header;
     @include for-large-up {
-        background-color: #F3C6BD;
+        background-color: $color-header;
         padding-top: 39px;
     }
     .header {
@@ -17,6 +17,7 @@
             height: 62px;
             margin: auto;
             margin-top: 39px;
+            background-color: $color-header;
         }
         .logo {
             display: flex;
