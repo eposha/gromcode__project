@@ -8,6 +8,9 @@
 .tip {
     padding: 40px 15px 0 15px;
     border-bottom: 1px solid #e3e3e3;
+    &:last-child {
+        border-bottom: none;
+    }
     &__subtitle {
         font-weight: 700;
         font-size: 22px;
