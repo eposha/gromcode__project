@@ -31,6 +31,11 @@
         margin-top: 40px;
         border-top: 1px solid rgba(43, 41, 45, 0.1);
     }
+    .hide_desktop {
+        @include for-large-up {
+            display: none;
+        }
+    }
     &-links {
         display: flex;
         flex-direction: column;
