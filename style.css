@@ -1388,6 +1388,13 @@
 .here {
   padding: 0 16px;
 }
+@media screen and (min-width: 1400px) {
+  .here {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .here__title {
   margin: 0;
   padding: 0;
@@ -1398,14 +1405,31 @@
   text-align: center;
   letter-spacing: -0.357143px;
 }
+@media screen and (min-width: 1400px) {
+  .here__title {
+    margin-top: 106px;
+  }
+}
 .here__descr {
   margin-top: 18px;
   font-size: 24px;
   line-height: 34px;
   text-align: center;
 }
+@media screen and (min-width: 1400px) {
+  .here__descr {
+    margin-top: 20px;
+    width: 555px;
+  }
+}
 .here .action-button.here {
   width: 100%;
+}
+@media screen and (min-width: 1400px) {
+  .here .action-button.here {
+    margin-top: 28px;
+    width: 247px;
+  }
 }
 .here__it {
   display: flex;
@@ -1413,12 +1437,31 @@
   width: 290px;
   height: 140px;
 }
+@media screen and (min-width: 1400px) {
+  .here__it {
+    width: 750px;
+    height: 81px;
+  }
+}
 .here__it__profes {
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 8px 0 0 8px;
 }
+@media screen and (min-width: 1400px) {
+  .here__it__profes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 8px;
+  }
+  .here__it__profes .here__it:hover .here__it__arrow {
+    background-color: #3142C5;
+  }
+}
 .here__it__profes:hover {
   background-color: #3142C5;
+  cursor: pointer;
 }
 .here__it__profes:hover .here__it__profes__which {
   color: #fff;
@@ -1432,14 +1475,34 @@
   font-size: 22px;
   line-height: 28px;
 }
+@media screen and (min-width: 1400px) {
+  .here__it__profes__which {
+    margin: 0;
+    margin-left: 25px;
+    width: 428px;
+  }
+}
 .here__it__profes__where {
   margin: 17px 0 0 20px;
   font-size: 16px;
   line-height: 22px;
   color: #2b292d99;
 }
+@media screen and (min-width: 1400px) {
+  .here__it__profes__where {
+    margin: 0;
+  }
+}
+.here__it__profes .here__it__arrow__imgh {
+  margin-right: 24px;
+}
 .here__it:first-child {
   margin-top: 39px;
+}
+@media screen and (min-width: 1400px) {
+  .here__it:first-child {
+    margin-top: 110px;
+  }
 }
 .here__it:nth-child(2) {
   margin: 15px 0;
@@ -1454,6 +1517,11 @@
   width: 50px;
   border-radius: 0px 8px 8px 0px;
   background: #d5d4d5;
+}
+@media screen and (min-width: 1400px) {
+  .here__it__arrow {
+    display: none;
+  }
 }
 
 * {
