@@ -1,0 +1,117 @@
+.green {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    @include for-large-up {
+        align-items: center;
+    }
+    .customers {
+        padding: 0;
+        margin-top: 43px;
+    }
+    &__title {
+        margin: 0;
+        padding: 0;
+        padding: 0 15px;
+        margin-top: 39px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: $text-color-blue;
+        @include for-large-up {
+            padding: 0;
+            margin-top: 76px;
+        }
+    }
+    &__descr {
+        margin-top: 29px;
+        padding: 0 15px;
+        font-size: 24px;
+        line-height: 34px;
+        color: $color-dark;
+        @include for-large-up {
+            margin-top: 28px;
+            padding: 0;
+            text-align: center;
+            width: 750px;
+        }
+    }
+    &__name {
+        margin-top: 32px;
+        padding: 0 15px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        @include for-large-up {
+            margin-top: 34px;
+            padding: 0;
+        }
+    }
+    &__who {
+        padding: 0 15px;
+        font-size: 16px;
+        line-height: 24px;
+        color: $text-color-light-grey;
+        @include for-large-up {
+            padding: 0;
+        }
+    }
+    &__ball {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        padding: 0 15px;
+        @include for-large-up {
+            margin-top: 28px;
+        }
+        &__blue {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: $color-easy-grey;
+            &:nth-child(1) {
+                background-color: $color-ball-blue;
+            }
+            &:nth-child(2) {
+                margin: 0 19.5px;
+                @include for-large-up {
+                    margin: 0 13px;
+                }
+            }
+            &:hover {
+                background-color: $color-ball-blue;
+            }
+            @include for-large-up {
+                width: 8px;
+                height: 8px;
+            }
+        }
+    }
+    &__img {
+        display: block;
+        padding: 0 15px;
+        margin-top: 40px;
+        &__image {
+            @include for-large-up {
+                display: none;
+            }
+        }
+        &__hide {
+            position: absolute;
+            width: 273px;
+            height: 243px;
+            right: 26px;
+            bottom: 0;
+            @include for-large-down {
+                display: none;
+            }
+        }
+    }
+    .footer-line.green {
+        margin-top: 50px;
+        @include for-large-up {
+            margin-top: 36px;
+        }
+    }
+}
