@@ -1385,6 +1385,77 @@
   }
 }
 
+.here {
+  padding: 0 16px;
+}
+.here__title {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.357143px;
+}
+.here__descr {
+  margin-top: 18px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+}
+.here .action-button.here {
+  width: 100%;
+}
+.here__it {
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+  height: 140px;
+}
+.here__it__profes {
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 8px 0 0 8px;
+}
+.here__it__profes:hover {
+  background-color: #3142C5;
+}
+.here__it__profes:hover .here__it__profes__which {
+  color: #fff;
+}
+.here__it__profes:hover .here__it__profes__where {
+  color: #fff;
+}
+.here__it__profes__which {
+  margin: 19px 0 0 20px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+}
+.here__it__profes__where {
+  margin: 17px 0 0 20px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2b292d99;
+}
+.here__it:first-child {
+  margin-top: 39px;
+}
+.here__it:nth-child(2) {
+  margin: 15px 0;
+}
+.here__it:last-child {
+  margin-bottom: 50px;
+}
+.here__it__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  border-radius: 0px 8px 8px 0px;
+  background: #d5d4d5;
+}
+
 * {
   box-sizing: border-box;
 }
