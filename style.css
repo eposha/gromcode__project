@@ -439,6 +439,10 @@
   color: #2b292d99;
 }
 
+.footer-line.hide_mobile {
+  margin-top: 59px;
+}
+
 .headline {
   width: 100%;
   height: 788px;
