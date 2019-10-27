@@ -1496,6 +1496,11 @@
 .here__it__profes .here__it__arrow__imgh {
   margin-right: 24px;
 }
+@media screen and (max-width: 1399px) {
+  .here__it__profes .here__it__arrow__imgh {
+    display: none;
+  }
+}
 .here__it:first-child {
   margin-top: 39px;
 }

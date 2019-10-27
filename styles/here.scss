@@ -89,6 +89,9 @@
             }
             .here__it__arrow__imgh {
                 margin-right: 24px;
+                @include for-large-down {
+                    display: none;
+                }
             }
         }
         &:first-child {
