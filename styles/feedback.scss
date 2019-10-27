@@ -22,7 +22,7 @@
         color: $text-color-blue;
         @include for-large-up {
             padding: 0;
-            margin-top: 76px;
+            margin-top: 0;
         }
     }
     &__descr {
