@@ -1,4 +1,4 @@
-.green {
+.feedback {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -7,7 +7,9 @@
     }
     .customers {
         padding: 0;
-        margin-top: 43px;
+        @include for-large-up {
+            margin-top: 43px;
+        }
     }
     &__title {
         margin: 0;
@@ -108,7 +110,7 @@
             }
         }
     }
-    .footer-line.green {
+    .footer-line.feedback {
         margin-top: 50px;
         @include for-large-up {
             margin-top: 36px;

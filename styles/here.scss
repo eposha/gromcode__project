@@ -1,4 +1,4 @@
-.here {
+.hiring {
     padding: 0 16px;
     @include for-large-up {
         display: flex;
@@ -28,7 +28,7 @@
             width: 555px;
         }
     }
-    .action-button.here {
+    .action-button.hiring {
         width: 100%;
         @include for-large-up {
             margin-top: 28px;
@@ -53,17 +53,17 @@
                 justify-content: space-between;
                 width: 100%;
                 border-radius: 8px;
-                .here__it:hover .here__it__arrow {
+                hiring__it:hover .hiring__it__arrow {
                     background-color: $color-ball-blue;
                 }
             }
             &:hover {
                 background-color: $color-ball-blue;
                 cursor: pointer;
-                .here__it__profes__which {
+                .hiring__it__profes__which {
                     color: #fff;
                 }
-                .here__it__profes__where {
+                .hiring__it__profes__where {
                     color: #fff;
                 }
             }
@@ -87,7 +87,7 @@
                     margin: 0;
                 }
             }
-            .here__it__arrow__imgh {
+            .hiring__it__arrow__imgh {
                 margin-right: 24px;
                 @include for-large-down {
                     display: none;

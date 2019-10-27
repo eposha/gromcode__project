@@ -1,4 +1,4 @@
-.team {
+.inbox {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,7 +36,7 @@
     }
 }
 
-.team__content {
+.inbox__content {
     display: flex;
     flex-direction: column;
     @include for-large-up {
@@ -44,7 +44,7 @@
         width: 519px;
         justify-content: space-between;
     }
-    .team__inbox {
+    .inbox__inbox {
         &__title {
             &-m {
                 margin-top: 32px;
@@ -81,7 +81,7 @@
             }
         }
     }
-    .team__comments {
+    .inbox__review {
         margin: 30px 0 48px;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);

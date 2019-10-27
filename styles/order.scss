@@ -17,6 +17,8 @@
         margin-top: 50px;
         max-width: 200px;
         @include for-large-up {
+            margin-top: 0;
+            height: 320px;
             max-width: 269px;
             margin-right: 121px;
             align-items: flex-start;

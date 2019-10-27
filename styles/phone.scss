@@ -1,15 +1,15 @@
-.phone {
+.communication {
     &__container {
         display: flex;
         flex-direction: column;
         margin: 0 15px;
-        .phone__call {
+        .communication__call {
             @include for-large-up {
                 display: flex;
                 justify-content: space-between;
                 margin: 123px 193px 0 128px;
             }
-            .phone__content {
+            .communication__content {
                 display: flex;
                 flex-direction: column;
                 margin-top: 50px;
@@ -53,7 +53,7 @@
                     }
                 }
             }
-            .phone__img {
+            .communication__img {
                 display: flex;
                 align-items: center;
                 flex-direction: column;
@@ -90,7 +90,7 @@
             margin-left: 128px;
         }
     }
-    .phone__info {
+    .communication__info {
         display: flex;
         flex-direction: column;
         margin: 33px 0 50px;
@@ -104,14 +104,14 @@
             @include for-large-up {
                 width: 360px;
             }
-            .phone__info__text {
+            .communication__info__text {
                 font-size: 18px;
                 line-height: 26px;
                 color: $color-dark;
                 &:nth-child(2) {
                     margin: 33px 0;
                 }
-                .phone__info__span {
+                .communication__info__span {
                     font-weight: bold;
                 }
             }
@@ -121,7 +121,7 @@
                     margin: 0 30px;
                 }
             }
-            .phone__info__link {
+            .communication__info__link {
                 margin-top: 8px;
                 font-size: 18px;
                 line-height: 26px;

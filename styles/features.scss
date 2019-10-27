@@ -62,6 +62,9 @@
         margin-top: 21px;
         padding-bottom: 22px;
         display: flex;
+        &:last-child {
+            border-bottom: none;
+        }
     }
     &__advantage-item-text {
         font-weight: 700;
