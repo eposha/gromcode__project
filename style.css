@@ -1476,7 +1476,6 @@
 .hiring__title {
   margin: 0;
   padding: 0;
-  margin-top: 50px;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
@@ -1490,7 +1489,6 @@
     /* or 100% */
     text-align: center;
     letter-spacing: -0.5px;
-    margin-top: 0;
   }
 }
 .hiring__descr {
