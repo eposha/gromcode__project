@@ -1460,7 +1460,8 @@
 }
 
 .feedback__line {
-  width: 100%;
+  margin-top: -1px;
+  width: 320px;
   height: 1px;
   background: #E3E3E3;
 }
