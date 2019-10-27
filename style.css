@@ -950,6 +950,11 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-bottom: 2px solid #0185D0;
 }
+@media screen and (max-width: 1399px) {
+  .inbox__content .inbox__review {
+    max-height: 320px;
+  }
+}
 .inbox__content .inbox__review__descr {
   padding: 30px 20px 0 20px;
   font-size: 20px;
@@ -960,6 +965,7 @@
   display: flex;
   align-items: flex-start;
   margin: 26px 20px 28px;
+  height: 66px;
 }
 .inbox__content .inbox__review__people-img {
   margin-right: 11px;
