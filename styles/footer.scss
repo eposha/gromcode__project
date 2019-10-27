@@ -27,7 +27,7 @@
         display: none;
         width: 360px;
         margin-top: 26px;
-        line-height: 28px;
+        line-height: 30px;
         font-size: 18px;
         color: $text-color-light-grey;
         @include for-large-up {
@@ -39,6 +39,9 @@
         margin: 0;
         margin-top: 40px;
         border-top: 1px solid rgba(43, 41, 45, 0.1);
+        @include for-large-up {
+            margin-top: 65px;
+        }
     }
     .hide_desktop {
         @include for-large-up {
@@ -156,7 +159,7 @@
     margin-top: 30px;
     margin-bottom: 23px;
     @include for-large-up {
-        margin-top: 0;
+        // margin-top: 0;
         margin-left: auto;
         margin-bottom: 0;
     }
