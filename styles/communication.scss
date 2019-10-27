@@ -71,11 +71,14 @@
                     }
                 }
                 figcaption {
-                    border-top: 17px;
+                    margin-top: 17px;
                     font-size: 14px;
                     line-height: 22px;
                     text-align: center;
                     color: rgba(43, 41, 45, 0.6);
+                    @include for-large-up {
+                        margin-top: 0;
+                    }
                 }
             }
         }
@@ -94,7 +97,7 @@
     .communication__info {
         display: flex;
         flex-direction: column;
-        margin: 33px 0 50px;
+        margin: 86px 0 50px;
         @include for-large-up {
             flex-direction: row;
             justify-content: space-between;
@@ -109,7 +112,9 @@
                 font-size: 18px;
                 line-height: 26px;
                 color: $color-dark;
-                width: 360px;
+                @include for-large-up {
+                    width: 360px;
+                }
                 &:nth-child(2) {
                     margin: 33px 0;
                 }
@@ -127,7 +132,9 @@
                 margin-top: 8px;
                 font-size: 18px;
                 line-height: 26px;
-                font-weight: 700;
+                @include for-large-up {
+                    font-weight: 700;
+                }
             }
         }
     }

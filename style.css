@@ -1044,11 +1044,16 @@
   }
 }
 .communication__container .communication__call .communication__img figcaption {
-  border-top: 17px;
+  margin-top: 17px;
   font-size: 14px;
   line-height: 22px;
   text-align: center;
   color: rgba(43, 41, 45, 0.6);
+}
+@media screen and (min-width: 1400px) {
+  .communication__container .communication__call .communication__img figcaption {
+    margin-top: 0;
+  }
 }
 .communication .phn__line {
   margin: 0;
@@ -1066,7 +1071,7 @@
 .communication .communication__info {
   display: flex;
   flex-direction: column;
-  margin: 33px 0 50px;
+  margin: 86px 0 50px;
 }
 @media screen and (min-width: 1400px) {
   .communication .communication__info {
@@ -1084,7 +1089,11 @@
   font-size: 18px;
   line-height: 26px;
   color: #2B292D;
-  width: 360px;
+}
+@media screen and (min-width: 1400px) {
+  .communication .communication__info__content .communication__info__text {
+    width: 360px;
+  }
 }
 .communication .communication__info__content .communication__info__text:nth-child(2) {
   margin: 33px 0;
@@ -1104,7 +1113,11 @@
   margin-top: 8px;
   font-size: 18px;
   line-height: 26px;
-  font-weight: 700;
+}
+@media screen and (min-width: 1400px) {
+  .communication .communication__info__content .communication__info__link {
+    font-weight: 700;
+  }
 }
 
 .audience {
