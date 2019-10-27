@@ -17,6 +17,11 @@
         text-align: center;
         letter-spacing: -0.357143px;
         @include for-large-up {
+            font-size: 56px;
+            line-height: 56px;
+            /* or 100% */
+            text-align: center;
+            letter-spacing: -0.5px;
             margin-top: 0;
         }
     }
@@ -133,7 +138,4 @@
     height: 1px;
     width: 100%;
     background: #E3E3E3;
-    @include for-large-up {
-        display: none;
-    }
 }
