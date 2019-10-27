@@ -952,7 +952,7 @@
 }
 @media screen and (max-width: 1399px) {
   .inbox__content .inbox__review {
-    max-height: 320px;
+    height: 322px;
   }
 }
 .inbox__content .inbox__review__descr {
@@ -979,6 +979,8 @@
   color: #2B292D;
 }
 .inbox__content .inbox__review__people__name__who {
+  font-size: 16px;
+  line-height: 22px;
   color: #2b292d99;
 }
 
