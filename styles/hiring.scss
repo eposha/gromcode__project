@@ -128,3 +128,11 @@
         }
     }
 }
+
+.footer-line.feedback {
+    // margin-top: 50px;
+    @include for-large-up {
+        // display: none;
+        // margin-top: 36px;
+    }
+}

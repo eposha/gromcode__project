@@ -34,7 +34,7 @@
         @include for-large-up {
             margin-top: 28px;
             padding: 0;
-            text-align: center;
+            text-align: left;
             width: 750px;
         }
     }
@@ -64,7 +64,7 @@
         margin-top: 40px;
         padding: 0 15px;
         @include for-large-up {
-            margin-top: 28px;
+            // margin-top: 28px;
         }
         &__blue {
             display: inline-block;
@@ -78,7 +78,7 @@
             &:nth-child(2) {
                 margin: 0 19.5px;
                 @include for-large-up {
-                    margin: 0 13px;
+                    // margin: 0 13px;
                 }
             }
             &:hover {
@@ -105,19 +105,13 @@
         }
         &__hide {
             position: absolute;
-            width: 273px;
+            width: 290px;
             height: 243px;
             right: 26px;
             bottom: 0;
             @include for-large-down {
                 display: none;
             }
-        }
-    }
-    .footer-line.feedback {
-        margin-top: 50px;
-        @include for-large-up {
-            margin-top: 36px;
         }
     }
 }
