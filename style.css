@@ -976,9 +976,6 @@
   color: #2b292d99;
 }
 
-.communication {
-  padding: 0 15px;
-}
 @media screen and (min-width: 1400px) {
   .communication {
     padding: 0 193px 110px 126px;
