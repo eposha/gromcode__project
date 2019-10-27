@@ -959,7 +959,7 @@
 .inbox__content .inbox__review__people {
   display: flex;
   align-items: flex-start;
-  margin: 26px 20px;
+  margin: 26px 20px 28px;
 }
 .inbox__content .inbox__review__people-img {
   margin-right: 11px;

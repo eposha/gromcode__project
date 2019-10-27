@@ -95,6 +95,7 @@
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
         border-bottom: 2px solid $color-light-blue;
+        // height: 350px;
         &__descr {
             padding: 30px 20px 0 20px;
             font-size: 20px;
@@ -104,7 +105,7 @@
         &__people {
             display: flex;
             align-items: flex-start;
-            margin: 26px 20px;
+            margin: 26px 20px 28px;
             &-img {
                 margin-right: 11px;
             }
