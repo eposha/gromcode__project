@@ -906,7 +906,7 @@
   }
 }
 .inbox__content .inbox__inbox__title-m {
-  margin-top: 32px;
+  margin-top: 34px;
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
@@ -1476,6 +1476,7 @@
 .hiring__title {
   margin: 0;
   padding: 0;
+  margin-top: 55px;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
