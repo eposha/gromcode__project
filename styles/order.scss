@@ -5,10 +5,9 @@
     padding: 0 15px;
     background-color: $color-light;
     @include for-large-up {
-        padding: 73px 0 72px;
-        justify-content: center;
-        align-items: flex-start;
+        padding: 73px 228px 72px 224px;
         flex-direction: row;
+        justify-content: space-between;
     }
     &__details {
         max-width: 555px;
@@ -20,7 +19,7 @@
             margin-top: 0;
             height: 320px;
             max-width: 270px;
-            margin-right: 121px;
+            // margin-right: 121px;
             align-items: flex-start;
             justify-content: center;
         }
@@ -31,6 +30,11 @@
         line-height: 40px;
         letter-spacing: -0.357143px;
         margin-top: 40px;
+        @include for-large-up {
+            margin: 0;
+            padding: 0;
+            letter-spacing: -0.25px;
+        }
     }
     &__text {
         font-size: 24px;

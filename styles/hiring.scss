@@ -1,9 +1,11 @@
 .hiring {
-    padding: 0 16px;
+    padding: 0 15px;
     @include for-large-up {
+        padding: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 106px 325px 110px;
     }
     &__title {
         margin: 0;
@@ -15,7 +17,7 @@
         text-align: center;
         letter-spacing: -0.357143px;
         @include for-large-up {
-            margin-top: 106px;
+            margin-top: 0;
         }
     }
     &__descr {
@@ -30,9 +32,13 @@
     }
     .action-button.hiring {
         width: 100%;
+        margin-top: 30px;
+        // height: 48px;
         @include for-large-up {
+            margin: 0;
             margin-top: 28px;
             width: 247px;
+            height: 48px;
         }
     }
     &__it {
@@ -105,6 +111,9 @@
         }
         &:last-child {
             margin-bottom: 50px;
+            @include for-large-up {
+                margin-bottom: 0;
+            }
         }
         &__arrow {
             display: flex;

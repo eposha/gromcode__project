@@ -1,4 +1,8 @@
 .communication {
+    padding: 0 15px;
+    @include for-large-up {
+        padding: 110px 193px 110px 126px;
+    }
     &__container {
         display: flex;
         flex-direction: column;
@@ -23,6 +27,9 @@
                     font-size: 22px;
                     line-height: 34px;
                     color: $text-color-light-blue;
+                    @include for-large-up {
+                        margin-top: 16px;
+                    }
                 }
                 &-subtitle {
                     margin-top: 17px;

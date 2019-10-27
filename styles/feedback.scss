@@ -94,6 +94,10 @@
         display: block;
         padding: 0 15px;
         margin-top: 40px;
+        @include for-large-down {
+            display: flex;
+            justify-content: center;
+        }
         &__image {
             @include for-large-up {
                 display: none;

@@ -249,6 +249,8 @@
 @media screen and (min-width: 1400px) {
   .footer-description {
     display: block;
+    font-size: 18px;
+    line-height: 25px;
   }
 }
 .footer-line {
@@ -442,7 +444,7 @@
     margin-top: 84px;
     display: flex;
     padding-bottom: 77px;
-    height: 100%;
+    height: 561px;
   }
 }
 .headline__content {
@@ -725,10 +727,9 @@
 }
 @media screen and (min-width: 1400px) {
   .order {
-    padding: 73px 0 72px;
-    justify-content: center;
-    align-items: flex-start;
+    padding: 73px 228px 72px 224px;
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 .order__details {
@@ -743,7 +744,6 @@
     margin-top: 0;
     height: 320px;
     max-width: 270px;
-    margin-right: 121px;
     align-items: flex-start;
     justify-content: center;
   }
@@ -754,6 +754,13 @@
   line-height: 40px;
   letter-spacing: -0.357143px;
   margin-top: 40px;
+}
+@media screen and (min-width: 1400px) {
+  .order__title {
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.25px;
+  }
 }
 .order__text {
   font-size: 24px;
@@ -958,6 +965,14 @@
   color: #2b292d99;
 }
 
+.communication {
+  padding: 0 15px;
+}
+@media screen and (min-width: 1400px) {
+  .communication {
+    padding: 110px 193px 110px 126px;
+  }
+}
 .communication__container {
   display: flex;
   flex-direction: column;
@@ -986,6 +1001,11 @@
   font-size: 22px;
   line-height: 34px;
   color: #0189D1;
+}
+@media screen and (min-width: 1400px) {
+  .communication__container .communication__call .communication__content-title {
+    margin-top: 16px;
+  }
 }
 .communication__container .communication__call .communication__content-subtitle {
   margin-top: 17px;
@@ -1409,6 +1429,12 @@
   padding: 0 15px;
   margin-top: 40px;
 }
+@media screen and (max-width: 1399px) {
+  .feedback__img {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media screen and (min-width: 1400px) {
   .feedback__img__image {
     display: none;
@@ -1436,13 +1462,15 @@
 }
 
 .hiring {
-  padding: 0 16px;
+  padding: 0 15px;
 }
 @media screen and (min-width: 1400px) {
   .hiring {
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 106px 325px 110px;
   }
 }
 .hiring__title {
@@ -1457,7 +1485,7 @@
 }
 @media screen and (min-width: 1400px) {
   .hiring__title {
-    margin-top: 106px;
+    margin-top: 0;
   }
 }
 .hiring__descr {
@@ -1474,11 +1502,14 @@
 }
 .hiring .action-button.hiring {
   width: 100%;
+  margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
   .hiring .action-button.hiring {
+    margin: 0;
     margin-top: 28px;
     width: 247px;
+    height: 48px;
   }
 }
 .hiring__it {
@@ -1564,6 +1595,11 @@
 }
 .hiring__it:last-child {
   margin-bottom: 50px;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__it:last-child {
+    margin-bottom: 0;
+  }
 }
 .hiring__it__arrow {
   display: flex;
