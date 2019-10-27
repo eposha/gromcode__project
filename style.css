@@ -906,7 +906,7 @@
   }
 }
 .inbox__content .inbox__inbox__title-m {
-  margin-top: 35px;
+  margin-top: 36px;
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
@@ -958,6 +958,7 @@
 }
 .inbox__content .inbox__review__people {
   display: flex;
+  align-items: flex-start;
   margin: 26px 20px;
 }
 .inbox__content .inbox__review__people-img {
