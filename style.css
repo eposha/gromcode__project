@@ -968,6 +968,11 @@
 }
 @media screen and (max-width: 1399px) {
   .inbox__content .inbox__review {
+    height: 322px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .inbox__content .inbox__review {
     width: 519px;
     height: 218px;
     border-bottom: 1px solid #0185D0;
@@ -1510,6 +1515,11 @@
   line-height: 40px;
   text-align: center;
   letter-spacing: -0.357143px;
+}
+@media screen and (max-width: 1399px) {
+  .hiring__title {
+    margin-top: 55px;
+  }
 }
 @media screen and (min-width: 1400px) {
   .hiring__title {
