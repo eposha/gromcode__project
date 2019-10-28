@@ -1,0 +1,142 @@
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 1000px;
+    background-color: $bgc-table;
+    &__tables {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 1170px;
+        height: 788px;
+        .price-card {
+            width: 380px;
+            height: 770px;
+            background: $bgc-price-card;
+            box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+            &__title {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+                margin-top: 30px;
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 43px;
+                text-align: center;
+                color: #FFFFFF;
+                &-s {
+                    font-size: 15px;
+                    font-weight: 300;
+                    line-height: 21px;
+                }
+            }
+            &__price {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 36px;
+                width: 380px;
+                height: 104px;
+                font-weight: 700;
+                font-size: 55px;
+                line-height: 67px;
+                text-align: center;
+                color: #FFFFFF;
+                background-color: $bgc-price-first;
+            }
+            &__description {
+                margin: 39px 26px 0;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 18px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            &__options-list {
+                margin-top: 42px;
+                &__contain {
+                    display: flex;
+                    align-items: center;
+                    height: 50px;
+                    font-weight: 300;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #FFFFFF;
+                    .icon-add {
+                        margin: 0 21px;
+                    }
+                    &:nth-child(odd) {
+                        background-color: $bgc-price-odd;
+                    }
+                }
+            }
+            &:nth-child(2) {
+                position: relative;
+                .popular {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: 31px;
+                    right: -5px;
+                    width: 97px;
+                    height: 25px;
+                    background: $bgc-popular;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #FFFFFF;
+                    background: $bgc-popular;
+                    border: none;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        left: -25px;
+                        width: 0;
+                        height: 0;
+                        border-top: 25px solid transparent;
+                        border-left: 25px solid $bgc-popular;
+                        transform: rotate(-90deg);
+                    }
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        right: -25px;
+                        width: 0;
+                        height: 0;
+                        border: none;
+                        border-top: 25px solid transparent;
+                        border-left: 25px solid $bgc-popular;
+                    }
+                    transform: rotate(45deg);
+                }
+                .price-card__price {
+                    background-color: $bgc-price-second;
+                }
+            }
+            &:nth-child(3) {
+                .price-card__price {
+                    background-color: $bgc-price-third;
+                }
+            }
+            &__order-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                margin-top: 37px;
+                margin-bottom: 42px;
+                width: 154px;
+                height: 40px;
+                font-size: 14px;
+                line-height: 17px;
+                background: #5BB189;
+                border-radius: 20px;
+                color: #fff;
+            }
+        }
+    }
+}
