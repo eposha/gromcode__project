@@ -221,6 +221,11 @@
   flex-direction: column;
   margin: 0;
 }
+@media screen and (min-width: 1400px) {
+  .footer-navigation {
+    padding-top: 2px;
+  }
+}
 .footer-navigation .logo__img {
   width: 60px;
   height: 60px;
@@ -741,6 +746,7 @@
     padding: 120px 228px 72px 224px;
     flex-direction: row;
     justify-content: space-between;
+    height: 466px;
   }
 }
 .order__details {
@@ -1496,7 +1502,6 @@
 .hiring__title {
   margin: 0;
   padding: 0;
-  margin-top: 55px;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
@@ -1596,6 +1601,7 @@
 @media screen and (min-width: 1400px) {
   .hiring__it__profes__where {
     margin: 0;
+    margin-right: 53px;
   }
 }
 .hiring__it__profes .hiring__it__arrow__imgh {
@@ -1616,6 +1622,11 @@
 }
 .hiring__it:nth-child(2) {
   margin: 15px 0;
+}
+@media screen and (min-width: 1400px) {
+  .hiring__it:nth-child(2) {
+    margin: 30px 0;
+  }
 }
 .hiring__it:last-child {
   margin-bottom: 50px;
