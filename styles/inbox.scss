@@ -6,7 +6,7 @@
     background: $color-light-pink;
     @include for-large-up {
         flex-direction: row;
-        padding: 126px 99px 101px 193px;
+        padding: 138px 99px 101px 193px;
     }
     &__figure {
         display: flex;
@@ -14,7 +14,7 @@
         margin: 0;
         padding: 0;
         @include for-large-up {
-            margin-top: 16px;
+            margin-top: 29px;
             margin-right: 164px;
         }
         figcaption {
@@ -96,7 +96,9 @@
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
         border-bottom: 2px solid $color-light-blue;
         @include for-large-down {
-            height: 322px;
+            width: 519px;
+            height: 218px;
+            border-bottom: 1px solid $color-light-blue;
         }
         &__descr {
             padding: 30px 20px 0 20px;

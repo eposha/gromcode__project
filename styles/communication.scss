@@ -11,6 +11,8 @@
             @include for-large-up {
                 display: flex;
                 justify-content: space-between;
+                width: 1140px;
+                // height: 636px;
                 // margin: 123px 193px 0 128px;
             }
             .communication__content {
@@ -84,7 +86,7 @@
                     text-align: center;
                     color: rgba(43, 41, 45, 0.6);
                     @include for-large-up {
-                        margin-top: 15px;
+                        margin-top: 19px;
                     }
                 }
             }
@@ -109,7 +111,7 @@
             flex-direction: row;
             justify-content: space-between;
             margin-bottom: 0;
-            margin-top: 81px;
+            margin-top: 68px;
         }
         &__content {
             display: flex;

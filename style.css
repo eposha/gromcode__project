@@ -223,7 +223,7 @@
 }
 @media screen and (min-width: 1400px) {
   .footer-navigation {
-    padding-top: 2px;
+    padding-top: 1px;
   }
 }
 .footer-navigation .logo__img {
@@ -866,7 +866,7 @@
 @media screen and (min-width: 1400px) {
   .inbox {
     flex-direction: row;
-    padding: 126px 99px 101px 193px;
+    padding: 138px 99px 101px 193px;
   }
 }
 .inbox__figure {
@@ -877,7 +877,7 @@
 }
 @media screen and (min-width: 1400px) {
   .inbox__figure {
-    margin-top: 16px;
+    margin-top: 29px;
     margin-right: 164px;
   }
 }
@@ -968,7 +968,9 @@
 }
 @media screen and (max-width: 1399px) {
   .inbox__content .inbox__review {
-    height: 322px;
+    width: 519px;
+    height: 218px;
+    border-bottom: 1px solid #0185D0;
   }
 }
 .inbox__content .inbox__review__descr {
@@ -1014,6 +1016,7 @@
   .communication__container .communication__call {
     display: flex;
     justify-content: space-between;
+    width: 1140px;
   }
 }
 .communication__container .communication__call .communication__content {
@@ -1104,7 +1107,7 @@
 }
 @media screen and (min-width: 1400px) {
   .communication__container .communication__call .communication__img figcaption {
-    margin-top: 15px;
+    margin-top: 19px;
   }
 }
 .communication .phn__line {
@@ -1130,7 +1133,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 0;
-    margin-top: 81px;
+    margin-top: 68px;
   }
 }
 .communication .communication__info__content {

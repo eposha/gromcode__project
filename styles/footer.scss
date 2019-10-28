@@ -7,7 +7,7 @@
         flex-direction: column;
         margin: 0;
         @include for-large-up {
-            padding-top: 2px;
+            padding-top: 1px;
         }
         .logo {
             &__img {
