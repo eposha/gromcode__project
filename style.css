@@ -896,19 +896,18 @@
     margin-left: 31px;
   }
 }
-
-.inbox__content {
+.inbox .inbox__content {
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
-  .inbox__content {
+  .inbox .inbox__content {
     height: 559px;
     width: 519px;
     justify-content: space-between;
   }
 }
-.inbox__content .inbox__inbox__title-m {
+.inbox .inbox__content .inbox__inbox__title-m {
   margin-top: 36px;
   font-weight: 700;
   font-size: 22px;
@@ -916,12 +915,12 @@
   color: #F1592B;
 }
 @media screen and (min-width: 1400px) {
-  .inbox__content .inbox__inbox__title-m {
+  .inbox .inbox__content .inbox__inbox__title-m {
     margin-top: 0;
     padding-top: 0;
   }
 }
-.inbox__content .inbox__inbox__title-s {
+.inbox .inbox__content .inbox__inbox__title-s {
   margin-top: 17px;
   font-weight: 700;
   font-size: 40px;
@@ -930,50 +929,50 @@
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .inbox__content .inbox__inbox__title-s {
+  .inbox .inbox__content .inbox__inbox__title-s {
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
   }
 }
-.inbox__content .inbox__inbox__descr {
+.inbox .inbox__content .inbox__inbox__descr {
   margin-top: 18px;
   font-size: 24px;
   line-height: 34px;
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .inbox__content .inbox__inbox__descr {
+  .inbox .inbox__content .inbox__inbox__descr {
     margin-top: 30px;
   }
 }
-.inbox__content .inbox__review {
+.inbox .inbox__content__review {
   margin: 30px 0 48px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #FFFFFF;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-bottom: 2px solid #0185D0;
 }
 @media screen and (max-width: 1399px) {
-  .inbox__content .inbox__review {
+  .inbox .inbox__content__review {
     height: 322px;
   }
 }
-.inbox__content .inbox__review__descr {
+.inbox .inbox__content__review__descr {
   padding: 30px 20px 0 20px;
   font-size: 20px;
   line-height: 28px;
   color: #2B292D;
 }
-.inbox__content .inbox__review__people {
+.inbox .inbox__content__review__people {
   display: flex;
   align-items: flex-start;
   margin: 26px 20px 28px;
   height: 66px;
 }
-.inbox__content .inbox__review__people-img {
+.inbox .inbox__content__review__people-img {
   margin-right: 11px;
 }
-.inbox__content .inbox__review__people__name__title {
+.inbox .inbox__content__review__people__name__title {
   margin: 0;
   padding: 0;
   font-weight: 700;
@@ -981,7 +980,7 @@
   line-height: 22px;
   color: #2B292D;
 }
-.inbox__content .inbox__review__people__name__who {
+.inbox .inbox__content__review__people__name__who {
   font-size: 16px;
   line-height: 22px;
   color: #2b292d99;
@@ -1271,7 +1270,7 @@
     margin: 111px 0 110px;
   }
 }
-.audience__type__block {
+.audience__type .user-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1286,45 +1285,45 @@
   border-radius: 8px;
 }
 @media screen and (min-width: 1400px) {
-  .audience__type__block {
+  .audience__type .user-card {
     margin: 0;
     width: 262px;
     height: 300px;
   }
 }
-.audience__type__block:first-child {
+.audience__type .user-card:first-child {
   margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
-  .audience__type__block:first-child {
+  .audience__type .user-card:first-child {
     margin: 0;
     margin-right: 30px;
   }
 }
 @media screen and (min-width: 1400px) {
-  .audience__type__block:nth-child(2) {
+  .audience__type .user-card:nth-child(2) {
     margin-right: 31px;
   }
 }
 @media screen and (min-width: 1400px) {
-  .audience__type__block:nth-child(3) {
+  .audience__type .user-card:nth-child(3) {
     margin-right: 30px;
   }
 }
-.audience__type__block:last-child {
+.audience__type .user-card:last-child {
   margin-bottom: 50px;
 }
 @media screen and (min-width: 1400px) {
-  .audience__type__block:last-child {
+  .audience__type .user-card:last-child {
     margin: 0;
   }
 }
-.audience__type__block:hover {
+.audience__type .user-card:hover {
   background-color: #3141C5;
   color: #fff;
   cursor: pointer;
 }
-.audience__type__block figcaption {
+.audience__type .user-card figcaption {
   margin-top: 22px;
   font-weight: 700;
   font-size: 22px;
