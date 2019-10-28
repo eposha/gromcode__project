@@ -124,7 +124,7 @@
 .features {
   display: flex;
   position: relative;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 @media screen and (max-width: 1399px) {
   .features {
@@ -203,7 +203,7 @@
 }
 .features__left-decoration {
   position: absolute;
-  top: 258px;
+  top: 259px;
   height: 166px;
 }
 .features__banner {
@@ -308,124 +308,131 @@
     display: none;
   }
 }
-.footer .about-company {
-  margin-top: 45px;
+
+.about-company {
+  margin-top: 44px;
 }
-.footer .about-company .footer-description {
+.about-company .footer-description {
   font-size: 18px;
   line-height: 26px;
   /* or 144% */
   color: rgba(43, 41, 45, 0.6);
 }
-.footer .downloads {
+
+.downloads {
   display: flex;
   justify-content: center;
   margin: 25px 15px 0;
 }
 @media screen and (min-width: 1400px) {
-  .footer .downloads {
+  .downloads {
     justify-content: flex-start;
     margin: 25px 0 0;
   }
 }
-.footer .downloads__item {
+.downloads__item {
   margin-right: 10px;
 }
-.footer .additional-navigation {
+
+.additional-navigation {
   display: flex;
   flex-direction: column;
   margin: 30px 15px 0;
 }
 @media screen and (min-width: 1400px) {
-  .footer .additional-navigation {
+  .additional-navigation {
     flex-direction: row;
     margin-left: auto;
-    margin-top: 61px;
+    margin-top: 60px;
   }
 }
-.footer .additional-navigation__column {
+.additional-navigation__column {
   margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
-  .footer .additional-navigation__column {
+  .additional-navigation__column {
     margin-right: 29px;
     margin-top: 0;
   }
 }
-.footer .nav-links {
+
+.nav-links {
   width: 265px;
 }
-.footer .nav-links__title {
+.nav-links__title {
   margin: 0;
   font-size: 22px;
   line-height: 28px;
   color: #2B292D;
 }
-.footer .nav-links__list {
+.nav-links__list {
   margin: 18px 0 0;
   padding: 0;
   font-size: 18px;
   line-height: 30px;
   list-style-type: none;
 }
-.footer .nav-links__item a {
+.nav-links__item a {
   color: #2b292d99;
   text-decoration: none;
 }
-.footer .terms {
+
+.terms {
   margin-top: 30px;
   line-height: 22px;
   font-size: 14px;
 }
 @media screen and (min-width: 1400px) {
-  .footer .terms {
+  .terms {
     margin-top: 0;
     line-height: 50px;
   }
 }
-.footer .terms__items {
+.terms__items {
   margin-right: 22px;
   text-decoration: none;
   color: #2b292d99;
 }
-.footer .social-links {
+
+.social-links {
   margin-top: 30px;
   margin-bottom: 23px;
 }
 @media screen and (min-width: 1400px) {
-  .footer .social-links {
+  .social-links {
     margin-left: auto;
     margin-bottom: 0;
   }
 }
-.footer .social-links__item {
+.social-links__item {
   margin-left: 20px;
 }
-.footer .social-links__item:first-child {
+.social-links__item:first-child {
   margin-left: 0;
 }
-.footer .logo-vertical {
+
+.logo-vertical {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 @media screen and (min-width: 1400px) {
-  .footer .logo-vertical {
+  .logo-vertical {
     display: none;
   }
 }
-.footer .logo-vertical__image {
+.logo-vertical__image {
   height: 60px;
   width: 60px;
 }
-.footer .logo-vertical__name {
+.logo-vertical__name {
   margin-top: 20px;
   font-size: 20px;
   line-height: 25px;
   text-align: center;
   font-weight: 700;
 }
-.footer .logo-vertical__description {
+.logo-vertical__description {
   font-size: 18px;
   line-height: 25px;
   text-align: center;
@@ -896,18 +903,19 @@
     margin-left: 31px;
   }
 }
-.inbox .inbox__content {
+
+.inbox__content {
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
-  .inbox .inbox__content {
+  .inbox__content {
     height: 559px;
     width: 519px;
     justify-content: space-between;
   }
 }
-.inbox .inbox__content .inbox__inbox__title-m {
+.inbox__content .inbox__inbox__title-m {
   margin-top: 36px;
   font-weight: 700;
   font-size: 22px;
@@ -915,12 +923,12 @@
   color: #F1592B;
 }
 @media screen and (min-width: 1400px) {
-  .inbox .inbox__content .inbox__inbox__title-m {
+  .inbox__content .inbox__inbox__title-m {
     margin-top: 0;
     padding-top: 0;
   }
 }
-.inbox .inbox__content .inbox__inbox__title-s {
+.inbox__content .inbox__inbox__title-s {
   margin-top: 17px;
   font-weight: 700;
   font-size: 40px;
@@ -929,50 +937,50 @@
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .inbox .inbox__content .inbox__inbox__title-s {
+  .inbox__content .inbox__inbox__title-s {
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
   }
 }
-.inbox .inbox__content .inbox__inbox__descr {
+.inbox__content .inbox__inbox__descr {
   margin-top: 18px;
   font-size: 24px;
   line-height: 34px;
   color: #2B292D;
 }
 @media screen and (min-width: 1400px) {
-  .inbox .inbox__content .inbox__inbox__descr {
+  .inbox__content .inbox__inbox__descr {
     margin-top: 30px;
   }
 }
-.inbox .inbox__content__review {
+.inbox__content .inbox__review {
   margin: 30px 0 48px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #FFFFFF;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-bottom: 2px solid #0185D0;
 }
 @media screen and (max-width: 1399px) {
-  .inbox .inbox__content__review {
+  .inbox__content .inbox__review {
     height: 322px;
   }
 }
-.inbox .inbox__content__review__descr {
+.inbox__content .inbox__review__descr {
   padding: 30px 20px 0 20px;
   font-size: 20px;
   line-height: 28px;
   color: #2B292D;
 }
-.inbox .inbox__content__review__people {
+.inbox__content .inbox__review__people {
   display: flex;
   align-items: flex-start;
   margin: 26px 20px 28px;
   height: 66px;
 }
-.inbox .inbox__content__review__people-img {
+.inbox__content .inbox__review__people-img {
   margin-right: 11px;
 }
-.inbox .inbox__content__review__people__name__title {
+.inbox__content .inbox__review__people__name__title {
   margin: 0;
   padding: 0;
   font-weight: 700;
@@ -980,7 +988,7 @@
   line-height: 22px;
   color: #2B292D;
 }
-.inbox .inbox__content__review__people__name__who {
+.inbox__content .inbox__review__people__name__who {
   font-size: 16px;
   line-height: 22px;
   color: #2b292d99;
@@ -988,7 +996,7 @@
 
 @media screen and (min-width: 1400px) {
   .communication {
-    margin: 0 130px 110px 126px;
+    padding: 0 193px 110px 126px;
   }
 }
 .communication__container {
@@ -1270,7 +1278,7 @@
     margin: 111px 0 110px;
   }
 }
-.audience__type .user-card {
+.audience__type__block {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1285,45 +1293,45 @@
   border-radius: 8px;
 }
 @media screen and (min-width: 1400px) {
-  .audience__type .user-card {
+  .audience__type__block {
     margin: 0;
     width: 262px;
     height: 300px;
   }
 }
-.audience__type .user-card:first-child {
+.audience__type__block:first-child {
   margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
-  .audience__type .user-card:first-child {
+  .audience__type__block:first-child {
     margin: 0;
     margin-right: 30px;
   }
 }
 @media screen and (min-width: 1400px) {
-  .audience__type .user-card:nth-child(2) {
+  .audience__type__block:nth-child(2) {
     margin-right: 31px;
   }
 }
 @media screen and (min-width: 1400px) {
-  .audience__type .user-card:nth-child(3) {
+  .audience__type__block:nth-child(3) {
     margin-right: 30px;
   }
 }
-.audience__type .user-card:last-child {
+.audience__type__block:last-child {
   margin-bottom: 50px;
 }
 @media screen and (min-width: 1400px) {
-  .audience__type .user-card:last-child {
+  .audience__type__block:last-child {
     margin: 0;
   }
 }
-.audience__type .user-card:hover {
+.audience__type__block:hover {
   background-color: #3141C5;
   color: #fff;
   cursor: pointer;
 }
-.audience__type .user-card figcaption {
+.audience__type__block figcaption {
   margin-top: 22px;
   font-weight: 700;
   font-size: 22px;
@@ -1450,7 +1458,7 @@
 }
 .feedback__img__hide {
   position: absolute;
-  width: 273px;
+  width: 290px;
   height: 243px;
   right: 26px;
   bottom: 0;
@@ -1475,7 +1483,6 @@
 
 .hiring {
   padding: 0 15px;
-  margin-top: 50px;
 }
 @media screen and (min-width: 1400px) {
   .hiring {
@@ -1483,12 +1490,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 325px 110px;
+    margin: 106px 325px 110px;
   }
 }
 .hiring__title {
   margin: 0;
   padding: 0;
+  margin-top: 55px;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
