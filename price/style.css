@@ -74,7 +74,7 @@
 .price__tables .price-card__options-list__contain .icon-add {
   width: 15px;
   height: 13px;
-  margin: 17px 21px 20px 22px;
+  margin: 17px 21px 0 22px;
 }
 .price__tables .price-card__options-list__contain:nth-child(odd) {
   background-color: #2A3438;
