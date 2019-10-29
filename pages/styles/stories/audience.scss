@@ -1,0 +1,88 @@
+.audience {
+    display: flex;
+    justify-content: center;
+    &__develope {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 62px;
+        &__card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 343px;
+            height: 415px;
+            &__img {
+                margin-top: 40px;
+            }
+            &__descr {
+                margin-top: 36px;
+                font-size: 24px;
+                line-height: 30px;
+                text-align: center;
+                width: 293px;
+                height: 90px;
+            }
+            &__link {
+                position: absolute;
+                bottom: 40px;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 26px;
+                text-align: center;
+                text-decoration-line: underline;
+                color: $stories-link-blue;
+            }
+        }
+    }
+    &__your {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 87px;
+        &__title {
+            width: 556px;
+            height: 112px;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 56px;
+            text-align: center;
+            letter-spacing: -0.5px;
+        }
+        &__subtitle {
+            margin-top: 30px;
+            width: 555px;
+            height: 72px;
+            font-size: 24px;
+            line-height: 34px;
+            text-align: center;
+        }
+    }
+    &__line {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 8px;
+        margin-bottom: 114px;
+        &__item {
+            margin-top: 78px;
+            width: 360px;
+            &__title {
+                margin-top: 20px;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 26px;
+            }
+            &__descr {
+                margin-top: 8px;
+                font-size: 18px;
+            }
+            &__link {
+                display: block;
+                margin-top: 8px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+    }
+}

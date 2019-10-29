@@ -1,7 +1,7 @@
 .top-section {
-    background-color: $color-header;
+    background-color: $bgc-stories-header;
     @include for-large-up {
-        background-color: $color-header;
+        background-color: $bgc-stories-header;
         padding-top: 39px;
     }
     .header {
@@ -17,7 +17,7 @@
             height: 62px;
             margin: auto;
             margin-top: 39px;
-            background-color: $color-header;
+            background-color: $bgc-stories-header;
         }
         .logo {
             display: flex;

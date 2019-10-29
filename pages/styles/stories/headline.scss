@@ -1,0 +1,63 @@
+.headline {
+    width: 100%;
+    position: relative;
+    width: 1140px;
+    margin: auto;
+    margin-top: 84px;
+    display: flex;
+    padding-bottom: 21px;
+    &__content {
+        position: absolute;
+        z-index: 1;
+        margin: 0;
+    }
+    &__title {
+        margin: 0;
+        width: 754px;
+        height: 165px;
+        font-size: 80px;
+        line-height: 78px;
+        letter-spacing: -0.5px;
+        z-index: 1;
+    }
+    &__description {
+        margin: 0;
+        margin-top: 34px;
+        height: 102px;
+        width: 456px;
+        font-size: 24px;
+        line-height: 34px;
+        z-index: 1;
+    }
+    &__actions {
+        margin-top: 30px;
+        margin-top: 58px;
+        display: flex;
+        &-btn {
+            width: 160px;
+        }
+    }
+    &__learn-more-btn {
+        background-color: #ffffff;
+        color: #3040c4;
+        height: 48px;
+        font-size: 18px;
+        font-weight: 700;
+        border: none;
+        border-radius: 2px;
+        margin-left: 10px;
+        margin-top: 0;
+        width: 158px;
+    }
+    &__banner {
+        position: relative;
+        right: -105px;
+        top: 0;
+        width: 796px;
+        height: 448px;
+        margin-left: auto;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 399px) {}
