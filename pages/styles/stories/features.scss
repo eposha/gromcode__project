@@ -1,85 +1,116 @@
 .features {
     display: flex;
-    position: relative;
-    margin-top: 2px;
-    @include for-large-down {
-        display: none;
-    }
-    &__content {
-        width: 1140px;
-        margin: auto;
+    justify-content: center;
+    &__top {
         display: flex;
-        @include for-large-up {
-            padding-bottom: 110px;
+        justify-content: space-between;
+        margin-top: 81px;
+        margin-bottom: 68px;
+        .features__face {
+            figcaption {
+                margin-top: 15px;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+                color: rgba(43, 41, 45, 0.6);
+            }
         }
     }
-    &__column {
-        width: 459px;
-    }
-    &__subtitle {
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 34px;
-        color: #009B4D;
-        margin: 0;
-    }
-    &__title {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 56px;
-        letter-spacing: -0.5px;
-        margin-top: 24px;
-        margin-bottom: 0;
-    }
-    &__description {
-        margin-top: 30px;
-        margin-bottom: 0;
-        font-size: 24px;
-        line-height: 34px;
-    }
-    &__advantage-header {
-        line-height: 42px;
-        display: flex;
-        margin-top: 42px;
-    }
-    &__advantage-title {
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 26px;
-        color: #3142c6;
-        margin: 0;
-        margin-left: 15px;
-    }
-    &__advantage-description {
-        font-size: 18px;
-        line-height: 26px;
-        margin-top: 8px;
-        margin-bottom: 0;
-        padding-bottom: 20px;
-        border-bottom: 3px solid #3142C6;
-    }
-    &__advantage-item {
-        border-bottom: 1px solid #2b292d26;
-        margin-top: 21px;
-        padding-bottom: 22px;
-        display: flex;
-        &:last-child {
-            border-bottom: none;
+    &__million {
+        margin-top: 50px;
+        width: 461px;
+        &__header {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 34px;
+            color: $review-text-color;
+        }
+        &__title {
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -0.5px;
+        }
+        &__descr {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 24px;
+            line-height: 34px;
         }
     }
-    &__advantage-item-text {
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 26px;
-        margin-left: 15px;
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        &__item {
+            width: 360px;
+            &__descr {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 26px;
+                &__text {
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+            }
+            &__link {
+                display: block;
+                margin-top: 8px;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 26px;
+            }
+        }
     }
-    &__left-decoration {
-        position: absolute;
-        top: 259px;
-        height: 166px;
-    }
-    &__banner {
-        position: absolute;
-        right: 0;
+    &__footer {
+        margin-top: 96px;
+        &__title {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            text-align: center;
+        }
+        .footer__item-block {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 33px;
+        }
+        &__item {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 555px;
+            height: 240px;
+            &:first-child {
+                background: #FFFFFF;
+                box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.07), 0px 13px 18px rgba(0, 0, 0, 0.15);
+                border-radius: 8px;
+            }
+            &:last-child {
+                border: 1px solid rgba(43, 41, 45, 0.2);
+                border-radius: 8px;
+            }
+            &__block {
+                width: 274px;
+                &__title {
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+                &__descr {
+                    margin-top: 8px;
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+                &__link {
+                    display: block;
+                    margin-top: 8px;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+            }
+        }
     }
 }
