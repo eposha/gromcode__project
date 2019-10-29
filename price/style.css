@@ -72,9 +72,11 @@
   color: #FFFFFF;
 }
 .price__tables .price-card__options-list__contain .icon-add {
+  display: block;
+  line-height: 0;
   width: 15px;
   height: 13px;
-  margin: 17px 21px 0 22px;
+  margin: -3px 21px 0 22px;
 }
 .price__tables .price-card__options-list__contain:nth-child(odd) {
   background-color: #2A3438;
