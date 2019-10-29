@@ -6,7 +6,7 @@
     margin: auto;
     width: 1440px;
     height: 900px;
-    background-color: $bgc-table;
+    background-color: #000;
     &__tables {
         display: flex;
         justify-content: space-between;
@@ -81,7 +81,7 @@
             &:nth-child(2) {
                 position: relative;
                 .price-card__title {
-                    width: 163px;
+                    width: 165px;
                     height: 67px;
                 }
                 .popular {
@@ -128,7 +128,7 @@
             }
             &:nth-child(3) {
                 .price-card__title {
-                    width: 176px;
+                    width: 175px;
                     height: 67px;
                 }
                 .price-card__price {
