@@ -1,7 +1,8 @@
 .price {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    // align-items: flex-end;
     margin: auto;
     width: 1440px;
     height: 1000px;
@@ -11,8 +12,8 @@
         justify-content: space-between;
         // align-items: flex-end;
         width: 1170px;
-        height: 100%;
-        margin-bottom: 101px;
+        // height: 100%;
+        // margin-bottom: 101px;
         .price-card {
             width: 380px;
             height: 770px;
