@@ -1,6 +1,7 @@
 .review {
     display: flex;
     justify-content: center;
+    position: relative;
     background-color: $bgc-stories-review;
     &__brend {
         margin-top: 37px;
@@ -52,5 +53,12 @@
                 }
             }
         }
+    }
+    &__ball__img {
+        position: absolute;
+        width: 273px;
+        height: 243px;
+        right: 26px;
+        bottom: 0;
     }
 }

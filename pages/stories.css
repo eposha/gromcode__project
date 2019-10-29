@@ -803,6 +803,7 @@
 .review {
   display: flex;
   justify-content: center;
+  position: relative;
   background-color: #f2f8fb;
 }
 .review__brend {
@@ -855,6 +856,13 @@
 }
 .review__trust__balls__blue:nth-child(2) {
   margin: 0 13px;
+}
+.review__ball__img {
+  position: absolute;
+  width: 273px;
+  height: 243px;
+  right: 26px;
+  bottom: 0;
 }
 
 @media screen and (min-width: 1400px) {
