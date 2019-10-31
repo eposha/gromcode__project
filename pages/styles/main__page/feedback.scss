@@ -63,9 +63,7 @@
         justify-content: center;
         margin-top: 40px;
         padding: 0 15px;
-        @include for-large-up {
-            // margin-top: 28px;
-        }
+        @include for-large-up {}
         &__blue {
             display: inline-block;
             width: 12px;
@@ -77,9 +75,7 @@
             }
             &:nth-child(2) {
                 margin: 0 19.5px;
-                @include for-large-up {
-                    // margin: 0 13px;
-                }
+                @include for-large-up {}
             }
             &:hover {
                 background-color: $color-ball-blue;

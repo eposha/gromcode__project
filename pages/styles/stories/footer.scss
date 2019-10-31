@@ -94,7 +94,6 @@
     .footer-description {
         font-size: 18px;
         line-height: 26px;
-        /* or 144% */
         color: rgba(43, 41, 45, 0.6);
     }
 }
@@ -170,7 +169,6 @@
     margin-top: 30px;
     margin-bottom: 23px;
     @include for-large-up {
-        // margin-top: 0;
         margin-left: auto;
         margin-bottom: 0;
     }

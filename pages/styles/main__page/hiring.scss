@@ -21,10 +21,8 @@
         @include for-large-up {
             font-size: 56px;
             line-height: 56px;
-            /* or 100% */
             text-align: center;
             letter-spacing: -0.5px;
-            // margin-top: 106px;
         }
     }
     &__descr {
@@ -40,7 +38,6 @@
     .action-button.hiring {
         width: 100%;
         margin-top: 30px;
-        // height: 48px;
         @include for-large-up {
             margin: 0;
             margin-top: 28px;

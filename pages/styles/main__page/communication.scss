@@ -1,5 +1,4 @@
 .communication {
-    // padding: 0 15px;
     @include for-large-up {
         padding: 0 193px 110px 126px;
     }
@@ -12,8 +11,6 @@
                 display: flex;
                 justify-content: space-between;
                 width: 1140px;
-                // height: 636px;
-                // margin: 123px 193px 0 128px;
             }
             .communication__content {
                 display: flex;
@@ -138,7 +135,6 @@
                 }
             }
             .communication__info__link {
-                // margin-top: 8px;
                 font-size: 16px;
                 line-height: 26px;
                 font-weight: 700;

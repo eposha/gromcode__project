@@ -366,7 +366,6 @@
 .about-company .footer-description {
     font-size: 18px;
     line-height: 26px;
-    /* or 144% */
     color: rgba(43, 41, 45, 0.6);
 }
 
@@ -1757,7 +1756,6 @@
     .hiring__title {
         font-size: 56px;
         line-height: 56px;
-        /* or 100% */
         text-align: center;
         letter-spacing: -0.5px;
     }
