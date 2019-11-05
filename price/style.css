@@ -52,7 +52,7 @@
   background-color: #5BB189;
 }
 .price__tables .price-card__description {
-  margin: 39px 26px 0;
+  margin: 39px 26px 40px;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
@@ -60,7 +60,7 @@
   color: #FFFFFF;
 }
 .price__tables .price-card__options-list {
-  margin-top: 42px;
+  padding-left: 0;
 }
 .price__tables .price-card__options-list__contain {
   display: flex;
@@ -149,11 +149,14 @@
   font-weight: 400;
   line-height: 17px;
   background: #5BB189;
+  outline: none;
+  border: none;
   border-radius: 20px;
   color: #fff;
 }
 .price__tables .price-card:nth-child(2) .price-card__order-btn {
   background-color: #3A6BA5;
+  border: none;
 }
 .price__tables .price-card:nth-child(3) .price-card__order-btn {
   background-color: #EC632A;
