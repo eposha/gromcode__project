@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 640px;
+    color: #11223F;
+}
+
+@import 'breakpoints';
+@import 'variables';
+@import 'container';
+@import 'header';
+@import 'action-btn';

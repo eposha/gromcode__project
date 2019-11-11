@@ -1,0 +1,39 @@
+.header {
+    &__logo {
+        display: flex;
+        margin: 40px 0 0 80px;
+        .header__img {
+            margin-right: 10px;
+        }
+        .header__title {
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            color: $text-color-blue;
+        }
+    }
+    &__main {
+        &__title {
+            margin: 80px 80px 0 80px;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 60px;
+            letter-spacing: 1px;
+        }
+        &__description {
+            margin: 20px 80px 0 80px;
+            width: 400px;
+            font-size: 16px;
+            line-height: 30px;
+        }
+        &-button {
+            position: relative;
+            margin: 40px 0 0 80px;
+        }
+    }
+    &__picture {
+        margin: 80px 21px 0 20px;
+    }
+}
