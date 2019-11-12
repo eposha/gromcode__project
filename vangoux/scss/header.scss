@@ -1,4 +1,5 @@
 .header {
+    background: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
     &__logo {
         display: flex;
         margin: 40px 0 0 80px;
@@ -35,5 +36,8 @@
     }
     &__picture {
         margin: 80px 21px 0 20px;
+        &__img {
+            max-width: 599px;
+        }
     }
 }

@@ -1,0 +1,53 @@
+.comments {
+    margin-top: 168px;
+    background: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
+    &__card {
+        padding-top: 40px;
+        width: 540px;
+        height: 280px;
+        background-color: #fff;
+        .commensts__description {
+            margin: 40px;
+            font-size: 16px;
+            line-height: 30px;
+        }
+        &:last-child {
+            margin-top: 50px;
+        }
+    }
+    &__people {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        &__wrapper {
+            display: flex;
+            .comments__image {
+                width: 100px;
+                height: 100px;
+            }
+            .comments__who {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin-left: 20px;
+                .comments__name {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+                .comments__proffesion {
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: $text-color-blue;
+                    opacity: 0.8;
+                }
+            }
+        }
+        .comments__logo {
+            margin-right: 40px;
+            width: 60px;
+            height: 46px;
+        }
+    }
+}
