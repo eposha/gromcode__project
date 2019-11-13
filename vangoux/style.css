@@ -8,104 +8,41 @@
   }
 }
 
-.header .top-nav-menu {
-  display: none;
-}
-@media screen and (min-width: 1024px) {
-  .header .top-nav-menu {
-    display: flex;
-  }
-  .header .top-nav-menu .container {
-    display: flex;
-    justify-content: space-between;
-  }
-  .header .top-nav-menu .container .menu__logo {
-    display: flex;
-    margin-top: 30px;
-  }
-  .header .top-nav-menu .container .menu__logo .menu__img {
-    margin-right: 10px;
-    width: 50px;
-    height: 50px;
-  }
-  .header .top-nav-menu .container .menu__logo .menu__title {
-    display: flex;
-    align-items: center;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    color: #1968FC;
-  }
-  .header .top-nav-menu .page-header__navigation {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    margin-top: 30px;
-    margin-left: 220px;
-  }
-  .header .top-nav-menu .page-header__navigation__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 120px;
-    height: 50px;
-    list-style-type: none;
-  }
-  .header .top-nav-menu .page-header__navigation__item a {
-    display: flex;
-    align-items: center;
-    height: 50px;
-    text-decoration: none;
-  }
-  .header .top-nav-menu .page-header__navigation__item:last-child {
-    width: 180px;
-  }
-  .header .top-nav-menu .page-header__upload-btn {
-    margin-top: 30px;
-    width: 180px;
-    height: 50px;
-  }
-  .header .header__logo {
-    display: none;
-  }
-}
-.header__logo {
-  display: flex;
-  margin: 40px 0 0 80px;
-}
-.header__logo .header__img {
-  margin-right: 10px;
-}
-.header__logo .header__title {
+.page-header .logo {
   display: flex;
   align-items: center;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.page-header .logo__img {
+  width: 50px;
+  height: 50px;
+}
+.page-header .logo__title {
+  margin-left: 10px;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
   color: #1968FC;
 }
-.header__main__title {
-  margin: 80px 80px 0 80px;
+
+.headline__title {
+  margin: 80px 0 0 30px;
   font-weight: 600;
   font-size: 40px;
   line-height: 60px;
   letter-spacing: 1px;
 }
-.header__main__description {
-  margin: 20px 80px 0 80px;
-  width: 400px;
-  font-size: 16px;
-  line-height: 30px;
+.headline__description {
+  margin-left: 30px;
+  font-size: 20px;
+  line-height: 40px;
 }
-.header__main-button {
-  position: relative;
-  margin: 40px 0 0 80px;
+.headline__uploud-btn {
+  margin: 40px 0 0 30px;
 }
-.header__picture {
-  margin: 80px 21px 0 20px;
-}
-.header__picture__img {
-  max-width: 599px;
+.headline__banner {
+  margin-top: 80px;
 }
 
 .action-btn {
@@ -141,118 +78,109 @@
   color: #FFFFFF;
   background: url(img/upload/PleaseVisitDesktopSiteSectionBackground.png);
 }
+.upload__text {
+  margin: 0 60px;
+}
 
-.comments {
+.reviews {
   margin-top: 168px;
 }
-.comments__card {
+.reviews .review {
   padding-top: 40px;
+  margin-bottom: 50px;
   width: 540px;
   height: 280px;
   background-color: #fff;
 }
-.comments__card .commensts__description {
-  margin: 40px;
-  font-size: 16px;
-  line-height: 30px;
-}
-.comments__card:last-child {
-  margin-top: 50px;
-}
-.comments__people {
+.reviews .review__header {
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
-  margin-left: 40px;
+  margin: 0 0 0 40px;
 }
-.comments__people__wrapper {
+.reviews .review__header__wrapper {
   display: flex;
+  align-items: center;
 }
-.comments__people__wrapper .comments__image {
-  width: 100px;
-  height: 100px;
-}
-.comments__people__wrapper .comments__who {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.reviews .review__header .who {
   margin-left: 20px;
 }
-.comments__people__wrapper .comments__who .comments__name {
+.reviews .review__header .who .name {
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
 }
-.comments__people__wrapper .comments__who .comments__proffesion {
+.reviews .review__header .who .proffesion {
   font-weight: 600;
   font-size: 14px;
   line-height: 30px;
-  color: #1968FC;
+  color: #1967FA;
   opacity: 0.8;
 }
-.comments__people .comments__logo {
+.reviews .review__header .review__logo {
   margin-right: 40px;
-  width: 60px;
-  height: 46px;
+}
+.reviews .review__description {
+  margin: 40px;
+  font-size: 16px;
+  line-height: 30px;
 }
 
-.work {
+.workflow {
   margin-top: 120px;
 }
-.work__line {
+.workflow__line {
   margin-top: 10px;
   margin-bottom: 48px;
 }
-.work__card {
+.workflow-step__wrapper .workflow__step {
   position: relative;
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 40px;
+  background-color: #fff;
+}
+.workflow-step__wrapper .workflow__step .step {
   padding-top: 40px;
-  width: 520px;
-  height: 180px;
-  box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
 }
-.work__card .step {
-  margin-left: 40px;
-}
-.work__card .step__number {
+.workflow-step__wrapper .workflow__step .step .number {
+  margin: 0 0 0 40px;
   font-weight: 700;
   font-size: 12px;
   line-height: 20px;
   text-transform: uppercase;
 }
-.work__card .step__title {
+.workflow-step__wrapper .workflow__step .step .name {
+  margin-left: 40px;
+  font-weight: 700;
   font-size: 18px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #1967FA;
 }
-.work__card .step__description {
-  margin-top: 10px;
+.workflow-step__wrapper .workflow__step .step .description {
+  margin: 0;
+  padding: 0;
+  margin: 10px 0 40px 40px;
   font-size: 16px;
   line-height: 30px;
-  align-items: center;
 }
-.work__card__img {
-  margin-right: 40px;
-  width: 40px;
-  height: 36px;
+.workflow-step__wrapper .workflow__step .workflow__icon {
+  margin: 40px 40px 0 0;
 }
-.work__card__squer {
+.workflow-step__wrapper .workflow__step .workflow__squar {
   position: absolute;
-  display: block;
-  width: 25px;
-  height: 25px;
   bottom: -5px;
   right: -5px;
 }
-.work__card .work__dashed {
+.workflow-step__wrapper .workflow__step .workflow__dashed {
   position: absolute;
   top: 182px;
   left: 59px;
   width: 1px;
   height: 40px;
   border: 2px dashed #1968FC;
-}
-.work__card:last-child .work__dashed {
-  display: none;
 }
 
 .line {
@@ -302,8 +230,11 @@
 }
 
 .title-cards {
+  margin: 0;
+  padding: 0;
   width: 520px;
   height: 60px;
+  font-weight: 400;
   font-size: 30px;
   line-height: 60px;
   text-transform: uppercase;
@@ -327,6 +258,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 28px;
 }
 .users__card-wrapper .user {
   margin-bottom: 20px;

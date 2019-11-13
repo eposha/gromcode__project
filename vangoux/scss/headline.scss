@@ -1,0 +1,20 @@
+.headline {
+    &__title {
+        margin: 80px 0 0 30px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 1px;
+    }
+    &__description {
+        margin-left: 30px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    &__uploud-btn {
+        margin: 40px 0 0 30px;
+    }
+    &__banner {
+        margin-top: 80px;
+    }
+}

@@ -13,4 +13,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
     background: url(img/upload/PleaseVisitDesktopSiteSectionBackground.png);
+    &__text {
+        margin: 0 60px;
+    }
 }

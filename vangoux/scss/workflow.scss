@@ -1,0 +1,58 @@
+.workflow {
+    margin-top: 120px;
+    &__line {
+        margin-top: 10px;
+        margin-bottom: 48px;
+    }
+    &-step__wrapper {
+        .workflow__step {
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            background-color: #fff;
+            .step {
+                padding-top: 40px;
+                .number {
+                    margin: 0 0 0 40px;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                }
+                .name {
+                    margin-left: 40px;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 40px;
+                    text-transform: uppercase;
+                    color: $text-color-blue-work;
+                }
+                .description {
+                    margin: 0;
+                    padding: 0;
+                    margin: 10px 0 40px 40px;
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+            }
+            .workflow__icon {
+                margin: 40px 40px 0 0;
+            }
+            .workflow__squar {
+                position: absolute;
+                bottom: -5px;
+                right: -5px;
+            }
+            .workflow__dashed {
+                position: absolute;
+                top: 182px;
+                left: 59px;
+                width: 1px;
+                height: 40px;
+                border: 2px dashed $text-color-blue;
+            }
+        }
+    }
+}
