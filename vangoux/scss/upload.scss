@@ -12,8 +12,11 @@
     line-height: 40px;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: url(img/upload/PleaseVisitDesktopSiteSectionBackground.png);
+    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png);
     &__text {
         margin: 0 60px;
+    }
+    @include for-large-up {
+        display: none;
     }
 }

@@ -4,6 +4,12 @@
     background-color: $text-color-blue;
     width: 640px;
     height: 480px;
+    @include for-large-up {
+        margin: 0 auto;
+        margin-top: 80px;
+        width: 1440px;
+        height: 450px;
+    }
     &__title {
         font-weight: 700;
         font-size: 30px;
@@ -21,6 +27,11 @@
         font-size: 20px;
         line-height: 40px;
         color: #FFFFFF;
+        @include for-large-up {
+            margin-top: 48px;
+            width: 620px;
+            height: 80px;
+        }
     }
     &__button {
         margin-top: 40px;
