@@ -1,12 +1,23 @@
 .stories {
     margin-top: 60px;
+    @include for-large-up {
+        margin-top: 120px;
+    }
     &__line {
         margin-top: 10px;
     }
     &__card-wrapper {
         margin-top: 42px;
+        @include for-large-up {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 52px;
+        }
         .story-card {
             margin-bottom: 40px;
+            @include for-large-up {
+                width: 480px;
+            }
             .card__header {
                 display: flex;
                 .card__title {
