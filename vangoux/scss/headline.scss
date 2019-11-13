@@ -1,7 +1,6 @@
 .headline {
     .container {
         position: relative;
-        // height: 552px;
     }
     &__title {
         margin: 80px 0 0 30px;
@@ -34,7 +33,7 @@
             display: none;
         }
         @include for-large-up {
-            margin: 20px 0 0 0;
+            margin: 40px 0 0 0;
             .upload-btn__small {
                 display: none;
             }
