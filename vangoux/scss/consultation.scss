@@ -51,8 +51,12 @@
         color: $text-color-blue;
     }
     &__img {
-        position: absolute;
-        right: 0;
-        top: 20px;
+        display: none;
+        @include for-large-up {
+            position: absolute;
+            display: block;
+            right: 0;
+            top: 20px;
+        }
     }
 }

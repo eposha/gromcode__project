@@ -705,9 +705,15 @@
   color: #1968FC;
 }
 .consultation__img {
-  position: absolute;
-  right: 0;
-  top: 20px;
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .consultation__img {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 20px;
+  }
 }
 
 .stories {
@@ -777,6 +783,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  margin: 0 auto;
   margin-top: 61px;
   background-color: #FBFBFB;
   width: 640px;
