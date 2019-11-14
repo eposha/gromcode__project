@@ -5,6 +5,7 @@
         margin-bottom: 48px;
         @include for-large-up {
             transform-t: 50%;
+            margin-bottom: 38px;
         }
     }
     &-step__wrapper {
