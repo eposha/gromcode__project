@@ -675,6 +675,11 @@
   text-transform: uppercase;
   color: #FFFFFF;
 }
+@media screen and (min-width: 1024px) {
+  .consultation__title {
+    width: fit-content;
+  }
+}
 .consultation__line {
   margin-top: 10px;
   background: #FFFFFF;

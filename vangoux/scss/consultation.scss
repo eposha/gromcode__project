@@ -17,6 +17,9 @@
         line-height: 60px;
         text-transform: uppercase;
         color: #FFFFFF;
+        @include for-large-up {
+            width: fit-content;
+        }
     }
     &__line {
         margin-top: 10px;
